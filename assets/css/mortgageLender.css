@@ -1,0 +1,504 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.transparent{
+  position: absolute;
+  background: rgb(51, 51, 51, 0.5);
+  width:100%;
+  height: 935px;
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+  height: 935px;
+  background-repeat: no-repeat;
+  background-image: url("headingpic.jpg");
+  background-size: 100%;
+   filter: blur(4px);
+}
+
+.companyName{
+  position: absolute;
+  left: 27.5%;
+  margin:0;
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.phoneNumber{
+  position: absolute;
+  left: 55%;
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 60px;
+  background: steelblue;
+  border-radius: 0px 0px 30px 30px;
+  text-align: center;
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.phone{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+h2{
+  display: inline-block;
+  margin: 0;
+}
+
+.moto{
+  position: absolute;
+  top: 32%;
+  left: 32%;
+  display: grid;
+  grid-template-columns: 700px;
+  grid-template-rows: 150px;
+  grid-template-areas:
+  "motoLine"
+  "description"
+  "apply";
+  color: white;
+}
+
+.motoLine{
+  grid-area: motoLine;
+  text-align: center;
+  font-size: 50px;
+}
+
+.description{
+  grid-area: description;
+  text-align: center;
+  margin: 70px;
+  margin-bottom: 0;
+}
+
+.apply{
+  grid-area: apply;
+  margin-top: 20px;
+  margin-left: 38%;
+  width: 170px;
+  text-align: center;
+  border: none;
+  background: rgb(255, 102, 0);
+  border-radius: 20px;
+  height: 40px;
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.apply:hover{
+  grid-area: apply;
+  margin-top: 20px;
+  margin-left: 38%;
+  width: 170px;
+  text-align: center;
+  border: none;
+  background: rgb(26, 140, 255);
+  border-radius: 20px;
+  height: 40px;
+  color: black;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.details{
+  position: absolute;
+  top: 85.25%;
+  left: 29%;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 50px 50px;
+  grid-template-areas:
+  "years growth bbbRating custSat"
+  "yearsAn growthAn bbbRatingAn custSatAn";
+  text-align: center;
+  color: white;
+}
+
+.transparentFooter{
+  position: absolute;
+  top: 85.25%;
+  background: rgb(13, 13, 13, 0.5);
+  width:100%;
+  height: 135px;
+}
+
+.years{
+  grid-area: years;
+  font-size: 20px;
+}
+
+.growth{
+  grid-area: growth;
+  font-size: 20px;
+}
+
+.bbbRating{
+  grid-area: bbbRating;
+  font-size: 20px;
+}
+
+.custSat{
+  grid-area: custSat;
+  font-size: 20px;
+}
+
+.yearsAn{
+  grid-area: yearsAn;
+  font-size: 50px;
+}
+
+.growthAn{
+  grid-area: growthAn;
+  font-size: 50px;
+}
+
+.bbbRatingAn{
+  grid-area: bbbRatingAn;
+  font-size: 50px;
+}
+
+.custSatAn{
+  grid-area: custSatAn;
+  font-size: 50px;
+}
+
+.sectionTwo{
+  width: 100%;
+  height: 1280px;
+}
+
+.why{
+  position: absolute;
+  top: 1030px;
+  left: 41%;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.whyDescription{
+  position: absolute;
+  top: 1060px;
+  left: 22.35%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sectionThree{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 60px 60px 60px 60px;
+  grid-template-areas:
+  "whyTwo whyTwo whyTwo"
+  "firstIcon secondIcon thirdIcon"
+  "rates fees hassel"
+  "one two three";
+  text-align: center;
+  background-color: rgb(26, 140, 255);
+  color: white;
+  padding-left: 28%;
+  padding-bottom: 5%;
+  padding-top: 4%;
+  column-gap: 100px;
+}
+
+.whyTwo{
+  grid-area: whyTwo;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.firstIcon{
+  grid-area: firstIcon;
+}
+
+.rates{
+  grid-area: rates;
+  font-size: 25px;
+}
+
+.one{
+  grid-area: one;
+  font-size: 15px;
+}
+
+.secondIcon{
+  grid-area: secondIcon;
+}
+
+.fees{
+  grid-area: fees;
+  font-size: 25px;
+}
+
+.two{
+  grid-area: two;
+  font-size: 15px;
+}
+
+.thirdIcon{
+  grid-area: thirdIcon;
+}
+
+.hassel{
+  grid-area: hassel;
+  font-size: 25px;
+}
+
+.three{
+  grid-area: three;
+  font-size: 15px;
+}
+
+.sectionFour{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 60px 60px 40px 60px;
+  grid-template-areas:
+  "popular popular popular"
+  "firstProduct secondProduct thirdProduct"
+  "firstRate secondRate thirdRate"
+  "productDescription productDescriptionTwo productDescriptionThree";
+  text-align: center;
+  column-gap: 75px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 28%;
+}
+
+.popular{
+  grid-area: popular;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.firstProduct{
+  grid-area: firstProduct;
+}
+
+.firstRate{
+  grid-area: firstRate;
+}
+
+.productDescription{
+  grid-area: productDescription;
+}
+
+.secondProduct{
+  grid-area: secondProduct;
+}
+
+.secondRate{
+  grid-area: secondRate;
+}
+
+.productDescriptionTwo{
+  grid-area: productDescriptionTwo;
+}
+
+.thirdProduct{
+  grid-area: thirdProduct;
+}
+
+.thirdRate{
+  grid-area: thirdRate;
+}
+
+.productDescriptionThree{
+  grid-area: productDescriptionThree;
+}
+
+.yearSize{
+    font-size: 60px;
+    color: rgb(26, 140, 255);
+}
+
+.orange{
+  color: rgb(255, 102, 0);
+}
+
+.apr{
+  font-size: 20px;
+}
+
+.dream{
+  width: 100%;
+  height: 525px;
+  background-color: rgb(26, 140, 255);
+}
+
+.family{
+  margin-left: 7%;
+  margin-top: 25px;
+  width: 40%;
+  height: 88%;
+  border: 8px solid white;
+}
+
+.simplifyDream{
+  position: absolute;
+  width: 50%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 40px;
+  color: white;
+}
+
+.dreamText{
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.pDreamText{
+  margin-right: 40%;
+  font-size: 20px;
+}
+
+.learnMore{
+  position: absolute;
+  top: 130%;
+  left: 45.5%;
+  width: 170px;
+  text-align: center;
+  border: 2px solid grey;
+  background: ;
+  border-radius: 20px;
+  height: 40px;
+  color: black;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.learnMore:hover{
+  position: absolute;
+  top: 130%;
+  left: 45.5%;
+  width: 170px;
+  text-align: center;
+  border: 2px solid grey;
+  background: rgb(255, 102, 0);
+  border-radius: 20px;
+  height: 40px;
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.testimonials{
+  padding-top: 25px;
+  height: 300px;
+  text-align: center;
+}
+
+.testTitle{
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.fa-quote-left{
+  color: grey;
+}
+
+.author{
+  color: rgb(26, 140, 255);
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: bold;
+}
+
+.testQuote{
+  font-size: 20px;
+}
+
+.fifthSection{
+  width: 100%;
+  height: 450px;
+  background-color: red;
+}
+
+.familyHouse{
+  position: absolute;
+  height: 750px;
+  width: 100%;
+  filter: blur(4px);
+}
+
+.transparentFamilyHouse{
+  position: absolute;
+  background: rgb(51, 51, 51, 0.7);
+  width:100%;
+  height: 750px;
+}
+
+.footerHeading{
+  position: absolute;
+  left: 30%;
+  margin-top: 11%;
+  text-align: center;
+  color: white;
+}
+
+.bigDreamsBtn{
+  width: 170px;
+  text-align: center;
+  border: none;
+  background: rgb(255, 102, 0);
+  border-radius: 20px;
+  height: 40px;
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.bigDreamsBtn:hover{
+  width: 170px;
+  text-align: center;
+  border: none;
+  background: rgb(26, 140, 255);
+  border-radius: 20px;
+  height: 40px;
+  color: black;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.bigDreams{
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+}
+
+.bigDreamsDescription{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.footer{
+  height: 375px;
+  width: 100%;
+}
+
+.copyright{
+  position: absolute;
+  text-align: center;
+  margin-top: 17.5%;
+  margin-left: 36%;
+}
+
+.copyrightpic{
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
